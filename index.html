@@ -2,34 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Profile card component [by nduduzo]</title>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+ 
+  <img src="./images/bg-pattern-top.svg" alt="background icon" class="top-bg-pattern">
+  <img src="./images/bg-pattern-bottom.svg" alt="background icon" class="bottom-bg-pattern">
 
-  80K
-  Followers
+  <div class="card">
+    <div class="card-header"></div>
 
-  803K
-  Likes
+    <div class="profile">
+      <img src="./images/image-victor.jpg" alt="profile photo">
+      <div>
+        <span class="name">Victor Crest</span>
+        <span class="age">26</span>
+        <span class="place">London</span>
+      </div>
+    </div>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="stats">
+      <div class="followers">
+        <h3>80K</h3>
+        <span>Followers</span>
+      </div>
+      <div class="likes">
+        <h3>803K</h3>
+        <span>Likes</span>
+      </div>
+      <div class="photos">
+        <h3>1.4K</h3>
+        <span>Photos</span>
+      </div>
+    </div>
   </div>
+
+
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://twitter.com/ndudzo__">nduduzo</a>.
+  </div>-->
 </body>
 </html>
